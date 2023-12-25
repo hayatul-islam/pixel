@@ -20,10 +20,11 @@ const Footer = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317716.6064073197!2d-0.43123970044350396!3d51.52860701956136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1703515336758!5m2!1sen!2sbd"
                 width="220"
                 height="180"
-                allowfullscreen=""
+                allowFullScreen={true}
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+                referrerPolicy="no-referrer-when-downgrade"
+                title="location"
+              />
             </div>
             <div className="max-w-[200px] w-full space-y-3">
               <h3 className="text-white text-[20px] font-medium">
