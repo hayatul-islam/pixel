@@ -5,6 +5,7 @@ import Featured from "./components/Featured";
 import HighlightProducts from "./components/HighlightProducts";
 import Photography from "./components/Photography";
 import Products from "./components/Products";
+import Footer from "./components/shared/Footer";
 import Header from "./components/shared/Header";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Photography />
       <Products />
       <Featured />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
