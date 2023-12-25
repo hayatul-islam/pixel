@@ -1,6 +1,7 @@
 import "swiper/css";
 import "swiper/css/pagination";
 import Banner from "./components/Banner";
+import Featured from "./components/Featured";
 import HighlightProducts from "./components/HighlightProducts";
 import Photography from "./components/Photography";
 import Products from "./components/Products";
@@ -15,6 +16,7 @@ function App() {
       <HighlightProducts />
       <Photography />
       <Products />
+      <Featured />
       <Footer />
     </>
   );
