@@ -38,7 +38,7 @@ const Banner = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="container bg-black bg-opacity-30 h-[78vh] grid items-end py-[50px]">
+            <div className="container bg-black bg-opacity-30 h-[550px] lg:h-[600px] grid items-end py-[50px]">
               <div className="flex">
                 <div className="text-white py-[40px]">
                   <h2 className="text-[26px] sm:text-[32px] md:text-[42px] lg:text-[64px] font-bold">

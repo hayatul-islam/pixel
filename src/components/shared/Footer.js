@@ -161,14 +161,20 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <div className="pt-6 md:hidden">
+              <Newsletter />
+            </div>
           </div>
         </div>
-        <div className="grid md:flex justify-between items-center pt-8 gap-6">
-          <div className="text-dark-gary max-w-[550px] w-full order-last md:order-first">
-            <p>© 2023 PIXEL.</p>
-            <p>All Rights Reserved</p>
+        <div className="grid md:flex md:justify-between md:items-center pt-8 gap-6">
+          <div className="text-dark-gary max-w-[550px] w-full order-last md:order-first text-center md:text-left">
+            <p className="hidden md:block">© 2023 PIXEL.</p>
+            <p>
+              <span className="md:hidden">© 2023 PIXEL.</span> All Rights
+              Reserved
+            </p>
           </div>
-          <div className="flex gap-4 items-center ">
+          <div className="flex gap-4 items-center justify-center w-full md:justify-start">
             <img src={card_1} alt="" />
             <img src={card_2} alt="" />
             <img src={card_3} alt="" />
