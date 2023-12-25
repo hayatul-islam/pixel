@@ -7,13 +7,13 @@ import photo_3 from "../assets/img/photo-3.png";
 
 const Photography = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 container items-center">
-      <div>
+    <div className="grid md:grid-cols-2 gap-4 container items-center">
+      <div className="hidden md:block">
         <img src={photo_1} alt="" />
       </div>
       <div className="space-y-3 max-w-[660px] w-full">
         <div>
-          <h2 className="text-[32px] font-semibold">
+          <h2 className="text-[20px] md:text-[32px] font-semibold">
             New to photography? Let us help!
           </h2>
           <p>
@@ -23,15 +23,19 @@ const Photography = () => {
         </div>
         <div className="relative">
           <input
-            className="pl-8 py-2 px-4 max-w-[270px] w-full focus:outline-none"
+            className="pl-8 py-2 px-4 md:w-[270px] w-full focus:outline-none"
             type="text"
             placeholder="Search guides"
           />
           <MdOutlineSearch className="text-primary absolute top-[50%] left-1 translate-y-[-50%] w-[20px] h-[20px]" />
         </div>
         <div className="space-y-3">
-          <div className="flex gap-6">
-            <img className="rounded h-[138px]" src={photo_2} alt="" />
+          <div className="grid md:flex gap-3 md:gap-6">
+            <img
+              className="rounded h-[138px] w-full md:w-auto"
+              src={photo_2}
+              alt=""
+            />
             <div className="grid">
               <div>
                 <h3 className="text-[20px] font-medium">Image Editing</h3>
@@ -49,8 +53,12 @@ const Photography = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-6">
-            <img className="rounded h-[138px]" src={photo_3} alt="" />
+          <div className="grid md:flex gap-3 md:gap-6">
+            <img
+              className="rounded h-[138px] w-full md:w-auto"
+              src={photo_3}
+              alt=""
+            />
             <div className="grid">
               <div>
                 <h3 className="text-[20px] font-medium">Composition</h3>

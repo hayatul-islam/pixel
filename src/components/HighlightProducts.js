@@ -6,7 +6,7 @@ const HighlightProducts = () => {
   return (
     <div className="container  py-[32px] lg:py-[60px]">
       <div className="hidden md:grid grid-cols-2 md:grid-cols-3 gap-4">
-        {highlightProducts?.map((product, i) => (
+        {highlightProducts?.slice(0, 3)?.map((product, i) => (
           <HighlightProduct product={product} i={i} />
         ))}
       </div>
