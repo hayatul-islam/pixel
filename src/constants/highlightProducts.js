@@ -10,7 +10,7 @@ export const highlightProducts = [
   },
   {
     image: product_2,
-    title: "lens",
+    title: "Lens",
     description: "Find the sharpest lens for your photoshoot",
   },
   {

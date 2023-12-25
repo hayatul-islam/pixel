@@ -6,8 +6,8 @@ const HighlightProducts = () => {
   return (
     <div className="container grid grid-cols-3 gap-4 py-[60px]">
       {highlightProducts?.map((product, i) => (
-        <div key={i} className="relative">
-          <img src={product?.image} alt="" />
+        <div key={i} className="relative rounded">
+          <img src={product?.image} alt="" className="rounded" />
           <div className="absolute bottom-0 p-6 w-full">
             <div>
               <h3 className="text-white text-[32px] font-semibold">
