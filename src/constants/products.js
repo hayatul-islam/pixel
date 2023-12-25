@@ -14,10 +14,10 @@ export const products = [
     rate: "4.8",
     time: "17h 31m",
     details: [
-      "45MP Full-Frame CMOS Sensor",
-      "Sensor-Shift Image Stabilization",
-      "DIGIC X Image Processor",
-      "8K30 Raw Video",
+      "20MP 4/3' CMOS Hasselblad",
+      "4K Slow Motion at 120 fps",
+      "f/2.8 to f/11 Adjustable Aperture",
+      "DJI RC Remote Included",
     ],
   },
   {
@@ -29,10 +29,10 @@ export const products = [
     rate: "4.6",
     time: "2h 27m",
     details: [
-      "45MP Full-Frame CMOS Sensor",
-      "Sensor-Shift Image Stabilization",
-      "DIGIC X Image Processor",
-      "8K30 Raw Video",
+      "20MP 4/3' CMOS Hasselblad",
+      "4K Slow Motion at 120 fps",
+      "f/2.8 to f/11 Adjustable Aperture",
+      "DJI RC Remote Included",
     ],
   },
   {
@@ -52,7 +52,7 @@ export const products = [
   },
   {
     image: product_4,
-    title: "Carbon Fiber Tripod",
+    title: "Carbon Tripod",
     brand: "Benro",
     price: "360",
     currentPrice: "319",
@@ -67,7 +67,7 @@ export const products = [
   },
   {
     image: product_5,
-    title: "HERO 11 Black Mini",
+    title: "HERO 11 Black",
     brand: "GoPro",
     price: "420",
     currentPrice: "370",
