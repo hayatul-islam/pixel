@@ -41,12 +41,15 @@ const Banner = () => {
             <div className="container bg-black bg-opacity-30 h-[78vh] grid items-end py-[50px]">
               <div className="flex">
                 <div className="text-white py-[40px]">
-                  <h2 className=" text-[64px] font-bold">MAKE BELIEVE</h2>
-                  <div className="flex justify-between items-center ">
-                    <p className="text-[20px]">
-                      Sales on selected SONY products
+                  <h2 className="text-[26px] sm:text-[32px] md:text-[42px] lg:text-[64px] font-bold">
+                    MAKE BELIEVE
+                  </h2>
+                  <div className="flex md:justify-between items-center gap-2 ">
+                    <p className="text-[18px] md:text-[20px] ">
+                      Sales on selected SONY products{" "}
+                      <FaArrowRight className="text-primary inline md:hidden w-[18px] h-[18px] md:w-[30px] md:h-[30px] font-bold" />
                     </p>
-                    <FaArrowRight className="text-primary w-[30px] h-[30px] font-bold" />
+                    <FaArrowRight className="text-primary hidden md:block w-[18px] h-[18px] md:w-[30px] md:h-[30px] font-bold" />
                   </div>
                 </div>
               </div>
