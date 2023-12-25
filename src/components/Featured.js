@@ -17,7 +17,7 @@ const Featured = () => {
             <h2 className="text-[32px] font-semibold">
               Turn used gear into new possibilities
             </h2>
-            <p>
+            <p className="max-w-[790px] w-full">
               We offer a reliable platform for buying and selling used
               photography gear. Whether you're a beginner looking for affordable
               equipment or a professional photographer in search of high-end
