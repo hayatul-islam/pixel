@@ -1,8 +1,16 @@
+import "swiper/css";
+import "swiper/css/pagination";
+import Banner from "./components/Banner";
+import Footer from "./components/shared/Footer";
+import Header from "./components/shared/Header";
+
 function App() {
   return (
-    <div>
-      <h2 className="text-red-400">Hello</h2>
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <Footer />
+    </>
   );
 }
 
