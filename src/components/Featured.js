@@ -41,7 +41,7 @@ const Featured = () => {
                     <div className="w-full">
                       <div className="flex justify-between max-w-[600px] w-full">
                         <h4 className="font-medium">Tom Smith</h4>
-                        <p className="gap-2 items-center flex md:hidden">
+                        <p className="gap-2 items-center flex md:hidden text-[14px]">
                           <FaCheck className="text-primary" />
                           <span className="text-dark-gary">PIXEL Verified</span>
                         </p>
