@@ -181,7 +181,7 @@ const Footer = () => {
             <img src={card_4} alt="" />
             <img src={card_5} alt="" />
           </div>
-          <div className="text-dark-gary md:flex  gap-6 hidden ">
+          <div className="text-dark-gary md:flex w-full gap-6 hidden ">
             <p>Return Policy</p>
             <p>Accessibility</p>
             <p>Terms of Use</p>
