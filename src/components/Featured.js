@@ -38,10 +38,16 @@ const Featured = () => {
                       src={user}
                       alt=""
                     />
-                    <div>
-                      <h4 className="font-medium">Tom Smith</h4>
-                      <p>Handmade Accessories</p>
-                      <p className="flex gap-2 items-center">
+                    <div className="w-full">
+                      <div className="flex justify-between max-w-[600px] w-full">
+                        <h4 className="font-medium">Tom Smith</h4>
+                        <p className="gap-2 items-center flex md:hidden">
+                          <FaCheck className="text-primary" />
+                          <span className="text-dark-gary">PIXEL Verified</span>
+                        </p>
+                      </div>
+                      <p className="text-[14px]">Handmade Accessories</p>
+                      <p className=" gap-2 items-center hidden md:flex">
                         <FaCheck className="text-primary" />
                         <span className="text-dark-gary">PIXEL Verified</span>
                       </p>
